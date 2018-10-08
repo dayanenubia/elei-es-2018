@@ -1,0 +1,27 @@
+div.atualizando { color: grey; }
+
+div.presidente { float: left; }
+
+div.porcentagem { color: grey;
+				   float: right; }
+
+div.progress { clear: both; }
+
+div.informaçoes { color: grey; }
+
+div.imagem { background-color: #aaa;
+	         border-radius: 50%;
+	         width: 90px;
+	         height: 90px;
+	         overflow: hidden;
+	         position: relative;}
+
+div.nome {  margin-top: -70px; 
+			margin-left: 100px;
+			}
+
+div h3 b.nome {	margin-top: -70px; 
+				margin-left: 100px;
+				color: grey; }
+
+div.info
