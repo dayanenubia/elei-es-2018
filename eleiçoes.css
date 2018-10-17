@@ -5,23 +5,49 @@ div.presidente { float: left; }
 div.porcentagem { color: grey;
 				   float: right; }
 
-div.progress { clear: both; }
+div.progress {	clear: both;
+				height: 7px;}
 
 div.informaçoes { color: grey; }
 
-div.imagem { background-color: #aaa;
-	         border-radius: 50%;
-	         width: 90px;
-	         height: 90px;
-	         overflow: hidden;
-	         position: relative;}
+div.imagem {	border-radius: 70%;
+				width: 90px;
+				height: 90px;
+				overflow: hidden;
+				position: relative;}
 
 div.nome {  margin-top: -70px; 
 			margin-left: 100px;
 			}
 
-div h3 b.nome {	margin-top: -70px; 
-				margin-left: 100px;
-				color: grey; }
 
-div.info
+div.partido {	margin-top: -10px; 
+				margin-left: 100px;
+				color: grey;}
+
+div.turno {	margin-top: -22px;
+			margin-left: 140px; 
+			color: #34c771;}
+
+div.info {	margin-top: -60px; 
+			margin-left: 1050px;}
+
+div.votos {	margin-top: -10px; 
+			margin-left: 991px;
+			color: grey;}
+
+div.candidato1 .progress {	clear: both;
+							height: 4px;
+							margin-top: 30px;
+							margin-left: 101px;}
+
+div.menu {	margin-left: 50px;
+			margin-right: 20px;
+			color: white;}
+
+div.g1 {color: white;
+		margin-right: 400px;}
+
+div.title {	color: white;
+			margin-right: 350px;}
+
