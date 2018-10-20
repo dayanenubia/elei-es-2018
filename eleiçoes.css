@@ -41,13 +41,14 @@ div.candidato1 .progress {	clear: both;
 							margin-top: 30px;
 							margin-left: 101px;}
 
-div.menu {	margin-left: 50px;
-			margin-right: 20px;
-			color: white;}
-
-div.g1 {color: white;
-		margin-right: 400px;}
+div.menu {	margin-left: 60px;
+			margin-right: 30px;
+			color: white;
+			background-color: #C4170C;}
 
 div.title {	color: white;
-			margin-right: 350px;}
+			margin-right: 400px;
+			margin-left: 300px;}
+
+h1.display-4 {	color: #C4170C;}
 

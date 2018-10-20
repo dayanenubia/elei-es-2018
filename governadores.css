@@ -1,0 +1,15 @@
+div.total {	float: left;
+			margin-right: 90px;
+			margin-left: 20px;}
+
+div.validos {	float: left;
+				margin-right: 90px;}
+
+div.brancos {	float: left;
+				margin-right: 90px;}
+
+div.nulos { 	float: left;
+				margin-right: 90px; }
+
+div.abstençoes {	float: left;
+					margin-right: 95px;}

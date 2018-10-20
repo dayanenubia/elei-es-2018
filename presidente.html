@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="eleiçoes.css">
+
+    <link rel="stylesheet" type="text/css" href="presidente.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <title>Presidente</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar" style="background-color: #C4170C;">
+    	<div class="menu">
+    		<a class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" style="color: white;">
+    			<h4>MENU</h4>
+  			</a>
+    	</div>	
+		<div class="title">
+			<h4>ELEIÇÕES 2018</h4>
+		</div>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+        </form>
+      </div>
+    </nav>
+	<div class="collapse" id="collapseExample">
+		<div class="card card-body">
+			<ul>
+				<li>
+					<a href="eleiçoes.html">Eleições 2018</a>
+					<li>
+						<a href="presidente.html">Presidente</a>
+						<li>
+							<a href="governadores.html">Governadores</a>
+						</li>
+					</li>
+				</li>
+			</ul>
+		</div>
+	</div>	
+    <br><br><br>
+
+
+    <div class="container">
+		<div class="atualizando">
+			<i class="fas fa-spinner"></i>
+			última atualização em 14:10:24h de 09/10/2018
+		</div> 
+		<div class="presidente">
+			<h1><b>Presidente</b></h1>
+		</div>
+		<div class="porcentagem">
+			<h3>99%</h3>
+		</div>
+		<div class="progress">
+			<div class="progress-bar bg-success" role="progressbar" style="width: 99%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+		</div>
+		<div class="informaçoes">
+			seções apuradas: <b>454480</b> de 454490
+		</div> <br>
+		<div class="linha">
+			<hr>
+		</div>
+		<br>
+		<div class="candidatos">
+			<h4><b>Candidatos</b></h4>
+		</div> <br>
+		<div class="candidato1">
+			<div class="imagem">
+			  <img src="data:image/jpeg;base64,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">
+			</div>
+			<div class="nome">
+			  <h4><b>Jair Bolsonaro</b></h4> 
+			</div>
+			<div class="partido">
+			  PSL
+			</div>
+			<div class="turno">
+			  <span><h6>2º TURNO</h6></span>
+			</div>  
+			<div class="info">
+			  <h5>46,03%</h5>
+			</div>
+			<div class="votos">
+			  49.275.358 votos
+			</div>
+			<div class="progress">
+				<div class="progress-bar bg-success" role="progressbar" style="width: 46%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+			</div>
+		</div> <br> <br>
+		<div class="candidato1">
+			<div class="imagem">
+		  		<img src="https://pm1.narvii.com/6975/a99feda83b70ba8e0902a080ef13124332647fd1r1-720-499v2_128.jpg">
+			</div>
+			<div class="nome">
+		  		<h4><b>Fernando Haddad</b></h4> 
+			</div>
+			<div class="partido">
+		  		PT
+			</div>
+			<div class="turno">
+		 		<span><h6>2º TURNO</h6></span>
+			</div>  
+			<div class="info">
+		  		<h5>29,28%</h5>
+			</div>
+			<div class="votos">
+		  		31.342.005 votos
+			</div>
+			<div class="progress">
+				<div class="progress-bar bg-success" role="progressbar" style="width: 29%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+			</div>
+		</div> <br><br>
+		<div class="candidato1">
+			<div class="imagem">
+		  		<img src="https://infograficos.estadao.com.br/politica/eleicoes/2018/o-que-15-mil-tweets-revelam-sobre-seu-candidato/media/profile/CiroGomes.png?v=1.0.5">
+			</div>
+			<div class="nome">
+		  		<h4><b>Ciro Gomes</b></h4> 
+			</div>
+			<div class="partido">
+		  		PDT
+			</div> 
+			<div class="info">
+		  		<h5>12,47%</h5>
+			</div>
+			<div class="votos">
+		  		13.344.366 votos
+			</div>
+			<div class="progress">
+				<div class="progress-bar bg-success" role="progressbar" style="width: 12%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+			</div>
+		</div><br><br>
+		<div class="candidato1">
+			<div class="imagem">
+		  		<img src="https://infograficos.estadao.com.br/politica/eleicoes/2018/o-que-15-mil-tweets-revelam-sobre-seu-candidato/media/profile/GeraldoAlckmin.png?v=1.0.5">
+			</div>
+			<div class="nome">
+		  		<h4><b>Geraldo Alckmin</b></h4> 
+			</div>
+			<div class="partido">
+		  		PSDB
+			</div> 
+			<div class="info">
+		  		<h5>4,76%</h5>
+			</div>
+			<div class="votos">
+		  		5.096.346 votos
+			</div>
+			<div class="progress">
+				<div class="progress-bar bg-success" role="progressbar" style="width: 4%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+			</div>
+		</div><br><br>
+		<div class="candidato1">
+			<div class="imagem">
+		  		<img src="https://infograficos.estadao.com.br/politica/eleicoes/2018/o-que-15-mil-tweets-revelam-sobre-seu-candidato/media/profile/JoaoAmoedo.png?v=1.0.5">
+			</div>
+			<div class="nome">
+		  		<h4><b>João Amoêdo</b></h4> 
+			</div>
+			<div class="partido">
+		  		NOVO
+			</div> 
+			<div class="info">
+		  		<h5>2,50%</h5>
+			</div>
+			<div class="votos">
+		  		2.679.744 votos
+			</div>
+			<div class="progress">
+				<div class="progress-bar bg-success" role="progressbar" style="width: 2%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+			</div>
+		</div>
+
+		<br><br>
+
+		<div class="resultado geral">
+			<div class="total">
+				<b>TOTAL</b>
+				<p>117.364.560</p>
+			</div>
+			<div class="validos">
+				<b>VÁLIDOS</b>
+				<p>107.050.673 (91,21%)</p>
+			</div>
+			<div class="brancos">
+				<b>BRANCOS</b>
+				<p>3.106.936 (2,65%)</p>
+			</div>
+			<div class="nulos">
+				<b>NULOS</b>
+				<p>7.206.205 (6,14%)</p>
+			</div>
+			<div class="abstençoes">
+				<b>ABSTENÇÕES</b>
+				<p>29.941.265 (20,33%)</p>
+			</div>
+		</div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
